@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(173, 173, 173, 0.959);
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100px;
+    padding: 10px;
+    transition: transform 1s ease;
+}
+.logo :hover {
+    transform: rotate(10deg);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    width: 155px;
+    padding: 40px 20px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 31px;
+    text-align: center;
+}
+.menu a:hover {
+    transition-delay: 0.2s;
+    border: 2px solid #000;
+    box-shadow: inset 0 0 10px #fff;
+}
+.t-shirt {
+    text-align: center;
+    font-size: 30px;
+}
+.men {
+    text-align: center;
+}
+.men img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+}
+
+.buy {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #000;
+    background-color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+    transition-delay: 0.3s;
+    transition-duration: 0.7s;
+    transition: all 1s ease;
+}
+.buy:hover {
+    color: #000;
+    background-color: #fff;
+}
+.button {
+    background-color: #fff;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -104.5px;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 15px;
+}
