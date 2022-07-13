@@ -3,8 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
 header {
+    width: 100%;
     background-color: rgba(173, 173, 173, 0.959);
+}
+.inner__header {
     display: flex;
     justify-content: space-between;
 }
@@ -80,4 +89,43 @@ button a {
     padding: 10px;
     background-color: #fff;
     font-size: 15px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    background-color: rgba(173, 173, 173, 0.959);
+    padding: 20px;
+}
+.nike {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.shoes {
+    border-radius: 10px;
+    margin: 35px 73px;
+    text-align: center;
+    border: 2px solid #000;
+}
+.shoes img {
+    width: 100%;
+}
+
+.form form {
+    border: 1px solid;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+.field:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: rgba(173, 173, 173, 0.959);
 }
